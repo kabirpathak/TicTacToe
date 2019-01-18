@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+        <LinearLayout
+            android:layout_width = "330dp"
+            android:layout_height = "325dp"
+
+            android:layout_marginTop = "80dp"
+            android:layout_marginLeft = "15dp"
+
+            android:background= "@drawable/mydrawbackground"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background = "@drawable/mybackground"
+
+                    android:layout_marginLeft = "25dp"
+                    android:id = "@+id/button1"
+                    android:textSize="40dp"
+                    android:gravity = "center"
+                    />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textSize="40dp"
+                    android:background = "@drawable/mybackground2"
+                    android:layout_marginLeft = "20dp"
+                    android:gravity = "center"
+
+                    android:id = "@+id/button2"/>
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:textSize="40dp"
+                    android:background = "@drawable/mybackground"
+                    android:layout_marginLeft = "20dp"
+
+                    android:gravity = "center"
+                    android:id = "@+id/button3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background = "@drawable/mybackground2"
+                    android:layout_marginLeft = "25dp"
+
+                    android:textSize="40dp"
+                    android:gravity = "center"
+                    android:id = "@+id/button4"/>
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background = "@drawable/mybackground"
+                    android:layout_marginLeft = "20dp"
+                    android:id = "@+id/button5"
+
+                    android:textSize="40dp"
+                    android:gravity = "center"/>
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background = "@drawable/mybackground2"
+                    android:layout_marginLeft="20dp"
+
+                    android:textSize="40dp"
+                    android:id = "@+id/button6"
+                    android:gravity = "center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+
+
+                android:orientation = "horizontal">
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background = "@drawable/mybackground"
+                    android:layout_marginLeft = "25dp"
+
+                    android:textSize="40dp"
+                    android:gravity = "center"
+                    android:id = "@+id/button7"/>
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background = "@drawable/mybackground2"
+                    android:layout_marginLeft = "20dp"
+                    android:id = "@+id/button8"
+
+                    android:textSize="40dp"
+                    android:gravity = "center"/>
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft = "20dp"
+                    android:background = "@drawable/mybackground"
+                    android:textSize="40dp"
+                    android:gravity = "center"
+                    android:id = "@+id/button9"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop = "40dp"
+            android:layout_marginLeft = "146dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background = "@drawable/mydrawbackground"
+                android:onClick = "getReset"
+                android:textSize = "20dp"
+                android:textColor = "@color/colorPrimary"
+                android:text = "RESET"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
